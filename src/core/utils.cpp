@@ -109,7 +109,7 @@ void updateTimeStr(struct tm timeInfo) {
     }
 }
 
-void showDeviceInfo() {
+void showDeviceInfo() { return ;}
     ScrollableTextArea area = ScrollableTextArea("DEVICE INFO");
 
     area.addLine("Bruce Version: " + String(BRUCE_VERSION));
